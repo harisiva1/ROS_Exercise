@@ -25,21 +25,8 @@ int main(int argc, char **argv) {
   srv2.request.side = 20; // Create an object of type MyCustomServiceMessage
   srv2.request.repetitions = 1;
   move_bb8_in_square_service_client.call(srv2);
-  /*if (move_bb8_in_square_service_client.call(srv)) {
-    ROS_INFO("Service successfully called. Moving BB8 in a square.");
-  } else if (move_bb8_in_square_service_client.call(srv1)) {
-    ROS_INFO(
-        "Service successfully called for second case. Moving BB8 in a square.");
-  } else if (move_bb8_in_square_service_client.call(srv2)) {
-    ROS_INFO(
-        "Service successfully called for third case. Moving BB8 in a square.");
-  } else {
-    ROS_ERROR("Failed to call service /move_bb8_in_square_custom");
-    return 1;
-  }*/
+
 
   return 0;
 }
 
-//<include file="$(find
- services_quiz)/launch/start_bb8_move_custom_service_server.launch"/>
