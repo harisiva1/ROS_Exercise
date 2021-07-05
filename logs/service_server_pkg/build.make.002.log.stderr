@@ -1,0 +1,4 @@
+[01m[K/home/user/catkin_ws/src/service_server_pkg/src/simple_service_server.cpp:[m[K In function '[01m[Kbool my_callback(std_srvs::Empty::Request&, std_srvs::Empty::Response&)[m[K':
+[01m[K/home/user/catkin_ws/src/service_server_pkg/src/simple_service_server.cpp:25:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   25 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K

@@ -1,0 +1,28 @@
+[31m[1mCMake Error[0m at /home/user/catkin_ws/src/action_client_pkg/CMakeLists.txt:164 (add_executable):
+  Cannot find source file:
+
+    no_wait_for_result_test.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+[31m[1mCMake Error[0m at /home/user/catkin_ws/src/action_client_pkg/CMakeLists.txt:158 (add_executable):
+  Cannot find source file:
+
+    wait_for_result_test.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+[31m[1mCMake Error[0m at /home/user/catkin_ws/src/action_client_pkg/CMakeLists.txt:164 (add_executable):
+  No SOURCES given to target: no_wait_for_result_test
+
+
+[31m[1mCMake Error[0m at /home/user/catkin_ws/src/action_client_pkg/CMakeLists.txt:158 (add_executable):
+  No SOURCES given to target: wait_for_result_test
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
+make: *** [Makefile:728: cmake_check_build_system] Error 1

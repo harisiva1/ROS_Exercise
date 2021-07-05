@@ -1,0 +1,13 @@
+[31m[1mCMake Error[0m at /home/user/catkin_ws/src/action_client_pkg/CMakeLists.txt:159 (add_dependencies):
+  Syntax error in cmake code at
+
+    /home/user/catkin_ws/src/action_client_pkg/CMakeLists.txt:159
+
+  when parsing string
+
+    ${{
+
+  syntax error, unexpected $end, expecting }} (2)
+
+
+make: *** [Makefile:728: cmake_check_build_system] Error 1

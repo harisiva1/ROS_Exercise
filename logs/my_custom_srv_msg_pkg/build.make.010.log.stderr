@@ -1,0 +1,6 @@
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x24): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/custom_service_server.dir/build.make:101: /home/user/catkin_ws/devel/.private/my_custom_srv_msg_pkg/lib/my_custom_srv_msg_pkg/custom_service_server] Error 1
+make[1]: *** [CMakeFiles/Makefile2:187: CMakeFiles/custom_service_server.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

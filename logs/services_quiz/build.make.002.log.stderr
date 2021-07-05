@@ -1,0 +1,15 @@
+[01m[K/home/user/catkin_ws/src/services_quiz/src/bb8_move_custom_service_server.cpp:[m[K In function '[01m[Kbool my_callback(services_quiz::BB8CustomServiceMessage::Request&, services_quiz::BB8CustomServiceMessage::Response&)[m[K':
+[01m[K/home/user/catkin_ws/src/services_quiz/src/bb8_move_custom_service_server.cpp:33:44:[m[K [01;31m[Kerror: [m[Kconversion from '[01m[Kdouble[m[K' to non-scalar type '[01m[Kros::Time[m[K' requested
+   33 |       ros::Time t0 = [01;31m[Kros::Time::now().toSec()[m[K;
+      |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/user/catkin_ws/src/services_quiz/src/bb8_move_custom_service_server.cpp:36:25:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K;[m[K' before '[01m[Kros[m[K'
+   36 |         pub.publish(mov)[01;31m[K [m[K[32m[Kros[m[K::Time t1 = ros::Time::now().toSec();
+      |                         [01;31m[K^[m[K[32m[K~~~[m[K
+      |                         [32m[K;[m[K
+[01m[K/home/user/catkin_ws/src/services_quiz/src/bb8_move_custom_service_server.cpp:37:35:[m[K [01;31m[Kerror: [m[K'[01m[Kt1[m[K' was not declared in this scope; did you mean '[01m[Kt0[m[K'?
+   37 |         curr_angle = ang_speed * ([01;31m[Kt1[m[K - t0);
+      |                                   [01;31m[K^~[m[K
+      |                                   [32m[Kt0[m[K
+make[2]: *** [CMakeFiles/bb8_move_custom_service_server.dir/build.make:63: CMakeFiles/bb8_move_custom_service_server.dir/src/bb8_move_custom_service_server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:182: CMakeFiles/bb8_move_custom_service_server.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

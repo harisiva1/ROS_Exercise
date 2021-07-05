@@ -1,0 +1,27 @@
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target bb8_move_custom_service_client[0m
+[  0%] Built target _services_quiz_generate_messages_check_deps_BB8CustomServiceMessage
+[ 18%] Built target bb8_move_custom_service_server
+[ 27%] [32mBuilding CXX object CMakeFiles/bb8_move_custom_service_client.dir/src/bb8_move_custom_service_client.cpp.o[0m
+[ 36%] Built target services_quiz_generate_messages_cpp
+[ 54%] Built target services_quiz_generate_messages_eus
+[ 81%] Built target services_quiz_generate_messages_py
+[ 90%] Built target services_quiz_generate_messages_lisp
+[ 90%] Built target services_quiz_generate_messages_nodejs
+[ 90%] Built target services_quiz_generate_messages
+[100%] [32m[1mLinking CXX executable /home/user/catkin_ws/devel/.private/services_quiz/lib/services_quiz/bb8_move_custom_service_client[0m
+[100%] Built target bb8_move_custom_service_client

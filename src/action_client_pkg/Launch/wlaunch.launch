@@ -1,0 +1,5 @@
+<launch>
+    <!-- My Package launch file -->
+    <node pkg="action_client_pkg" type="wait_for_result_test" name="wait_for_result"  output="screen">
+    </node>
+</launch>

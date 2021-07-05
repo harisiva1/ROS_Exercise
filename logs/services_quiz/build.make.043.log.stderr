@@ -1,0 +1,10 @@
+[01m[K/home/user/catkin_ws/src/services_quiz/src/bb8_move_custom_service_client.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/user/catkin_ws/src/services_quiz/src/bb8_move_custom_service_client.cpp:18:8:[m[K [01;31m[Kerror: [m[Krequest for member '[01m[Ksleep[m[K' in '[01m[Krate[m[K', which is of non-class type '[01m[Kros::Rate()[m[K'
+   18 |   rate.[01;31m[Ksleep[m[K(50);
+      |        [01;31m[K^~~~~[m[K
+[01m[K/home/user/catkin_ws/src/services_quiz/src/bb8_move_custom_service_client.cpp:23:8:[m[K [01;31m[Kerror: [m[Krequest for member '[01m[Ksleep[m[K' in '[01m[Krate[m[K', which is of non-class type '[01m[Kros::Rate()[m[K'
+   23 |   rate.[01;31m[Ksleep[m[K(80);
+      |        [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/bb8_move_custom_service_client.dir/build.make:63: CMakeFiles/bb8_move_custom_service_client.dir/src/bb8_move_custom_service_client.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:184: CMakeFiles/bb8_move_custom_service_client.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,5 @@
+<launch>
+    <!-- publisher package launch file -->
+    <node pkg="topics_quiz" type="topics_quiz_node" name="pub_sub_node"  output="screen">
+    </node>
+</launch>

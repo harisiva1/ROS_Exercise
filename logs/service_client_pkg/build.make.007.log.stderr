@@ -1,0 +1,7 @@
+[01m[K/home/user/catkin_ws/src/service_client_pkg/src/simple_service_client.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/user/catkin_ws/src/service_client_pkg/src/simple_service_client.cpp:20:3:[m[K [01;31m[Kerror: [m[K'[01m[Ktrajectory[m[K' was not declared in this scope
+   20 |   [01;31m[Ktrajectory[m[K.request.file = ros::package::getPath("iri_wam_reproduce_trajectory") + "/config/get_food.txt";
+      |   [01;31m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/simple_service_client.dir/build.make:63: CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:611: CMakeFiles/simple_service_client.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

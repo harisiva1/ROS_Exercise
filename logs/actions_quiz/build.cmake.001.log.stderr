@@ -1,0 +1,4 @@
+[31m[1mCMake Error[0m at /home/user/catkin_ws/src/actions_quiz/CMakeLists.txt:62 (add_action_files):
+  Unknown CMake command "add_action_files".
+
+

@@ -1,0 +1,13 @@
+[31m[1mCMake Error[0m at /opt/ros/noetic/share/catkin/cmake/assert.cmake:20 (message):
+
+
+  Assertion failed: file
+  '/home/user/catkin_ws/src/services_quiz/srv/MyCustomServiceMessage.srv'
+  does not exist.  Message: service file not found
+
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/noetic/share/genmsg/cmake/genmsg-extras.cmake:170 (assert_file_exists)
+  CMakeLists.txt:57 (add_service_files)
+
+
+make: *** [Makefile:530: cmake_check_build_system] Error 1

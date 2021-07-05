@@ -1,0 +1,16 @@
+[01m[K/home/user/catkin_ws/src/service_server_pkg/src/simple_service_server.cpp:[m[K In function '[01m[Kbool my_callback(std_srvs::Empty::Request&, std_srvs::Empty::Response&)[m[K':
+[01m[K/home/user/catkin_ws/src/service_server_pkg/src/simple_service_server.cpp:19:10:[m[K [01;31m[Kerror: [m[Kcould not convert '[01m[Kreq[m[K' from '[01m[Kstd_srvs::Empty::Request[m[K' {aka '[01m[Kstd_srvs::EmptyRequest_<std::allocator<void> >[m[K'} to '[01m[Kbool[m[K'
+   19 |   while ([01;31m[Kreq[m[K) {
+      |          [01;31m[K^~~[m[K
+      |          [01;31m[K|[m[K
+      |          [01;31m[Kstd_srvs::Empty::Request {aka std_srvs::EmptyRequest_<std::allocator<void> >}[m[K
+[01m[K/home/user/catkin_ws/src/service_server_pkg/src/simple_service_server.cpp:25:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   25 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/user/catkin_ws/src/service_server_pkg/src/simple_service_server.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/user/catkin_ws/src/service_server_pkg/src/simple_service_server.cpp:37:12:[m[K [01;31m[Kerror: [m[Kstatement cannot resolve address of overloaded function
+   37 |   ros::spin[01;31m[K;[m[K
+      |            [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/simple_service_server.dir/build.make:63: CMakeFiles/simple_service_server.dir/src/simple_service_server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:655: CMakeFiles/simple_service_server.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

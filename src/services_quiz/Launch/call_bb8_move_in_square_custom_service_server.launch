@@ -1,0 +1,6 @@
+<launch>
+    <!-- My Package launch file -->
+    
+    <node pkg="services_quiz" type="bb8_move_custom_service_client" name="quiz_service_client"  output="screen">
+    </node>
+</launch>

@@ -1,0 +1,5 @@
+<launch>
+    <!-- My Package launch file -->
+    <node pkg="action_client_pkg" type="no_wait_for_result_test" name="drone_action_client"  output="screen">
+    </node>
+</launch>

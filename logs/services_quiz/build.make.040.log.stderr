@@ -1,0 +1,8 @@
+[01m[K/home/user/catkin_ws/src/services_quiz/src/bb8_move_custom_service_client.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/user/catkin_ws/src/services_quiz/src/bb8_move_custom_service_client.cpp:25:53:[m[K [01;31m[Kerror: [m[K'[01m[Ksrv2[m[K' was not declared in this scope; did you mean '[01m[Ksrv1[m[K'?
+   25 |   } else if (move_bb8_in_square_service_client.call([01;31m[Ksrv2[m[K)) {
+      |                                                     [01;31m[K^~~~[m[K
+      |                                                     [32m[Ksrv1[m[K
+make[2]: *** [CMakeFiles/bb8_move_custom_service_client.dir/build.make:63: CMakeFiles/bb8_move_custom_service_client.dir/src/bb8_move_custom_service_client.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:184: CMakeFiles/bb8_move_custom_service_client.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

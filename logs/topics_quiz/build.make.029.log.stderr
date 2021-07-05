@@ -1,0 +1,11 @@
+[01m[K/home/user/catkin_ws/src/topics_quiz/src/topics_quiz_node.cpp:[m[K In function '[01m[Kvoid laserCallback(const ConstPtr&)[m[K':
+[01m[K/home/user/catkin_ws/src/topics_quiz/src/topics_quiz_node.cpp:29:19:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K;[m[K' before '[01m[K}[m[K' token
+   29 |   pub.publish(mov)
+      |                   [01;31m[K^[m[K
+      |                   [32m[K;[m[K
+......
+   51 | [32m[K}[m[K
+      | [32m[K~[m[K                  
+make[2]: *** [CMakeFiles/topics_quiz_node.dir/build.make:63: CMakeFiles/topics_quiz_node.dir/src/topics_quiz_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:250: CMakeFiles/topics_quiz_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

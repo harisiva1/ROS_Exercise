@@ -1,0 +1,149 @@
+[01m[K/home/user/catkin_ws/src/action413/src/ms.cpp:20:7:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K;[m[K' at end of member declaration
+   20 |   int [01;31m[Krate[m[K hz;
+      |       [01;31m[K^~~~[m[K
+      |           [32m[K;[m[K
+[01m[K/home/user/catkin_ws/src/action413/src/ms.cpp:20:7:[m[K [01;31m[Kerror: [m[Kredeclaration of '[01m[Kint Movesquare::rate[m[K'
+[01m[K/home/user/catkin_ws/src/action413/src/ms.cpp:19:14:[m[K [01;36m[Knote: [m[Kprevious declaration '[01m[Kros::Rate* Movesquare::rate[m[K'
+   19 |   ros::Rate *[01;36m[Krate[m[K;
+      |              [01;36m[K^~~~[m[K
+[01m[K/home/user/catkin_ws/src/action413/src/ms.cpp:20:12:[m[K [01;31m[Kerror: [m[K'[01m[Khz[m[K' does not name a type
+   20 |   int rate [01;31m[Khz[m[K;
+      |            [01;31m[K^~[m[K
+[01m[K/home/user/catkin_ws/src/action413/src/ms.cpp:50:35:[m[K [01;31m[Kerror: [m[K'[01m[KMovesquareGoalConstPtr[m[K' in namespace '[01m[Kactionlib[m[K' does not name a type; did you mean '[01m[KTestGoalConstPtr[m[K'?
+   50 |   void executeCB(const actionlib::[01;31m[KMovesquareGoalConstPtr[m[K &goal) {
+      |                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                   [32m[KTestGoalConstPtr[m[K
+[01m[K/home/user/catkin_ws/src/action413/src/ms.cpp:[m[K In constructor '[01m[KMovesquare::Movesquare(std::string)[m[K':
+[01m[K/home/user/catkin_ws/src/action413/src/ms.cpp:36:11:[m[K [01;31m[Kerror: [m[K'[01m[Knh[m[K' was not declared in this scope; did you mean '[01m[Knh_[m[K'?
+   36 |     pub = [01;31m[Knh[m[K.advertise<geometry_msgs::Twist>("/cmd_vel", 1000);
+      |           [01;31m[K^~[m[K
+      |           [32m[Knh_[m[K
+[01m[K/home/user/catkin_ws/src/action413/src/ms.cpp:36:44:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before '[01m[K>[m[K' token
+   36 |     pub = nh.advertise<geometry_msgs::Twist[01;31m[K>[m[K("/cmd_vel", 1000);
+      |                                            [01;31m[K^[m[K
+[01m[K/home/user/catkin_ws/src/action413/src/ms.cpp:38:43:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before '[01m[K>[m[K' token
+   38 |     takeoff = nh.advertise<std_msgs::Empty[01;31m[K>[m[K("/drone/takeoff", 1000);
+      |                                           [01;31m[K^[m[K
+[01m[K/home/user/catkin_ws/src/action413/src/ms.cpp:40:40:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before '[01m[K>[m[K' token
+   40 |     land = nh.advertise<std_msgs::Empty[01;31m[K>[m[K("/drone/land", 1000);
+      |                                        [01;31m[K^[m[K
+[01m[K/home/user/catkin_ws/src/action413/src/ms.cpp:41:9:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K;[m[K' before '[01m[Khz[m[K'
+   41 |     rate[01;31m[K [m[K[32m[Khz[m[K = 1;
+      |         [01;31m[K^[m[K[32m[K~~[m[K
+      |         [32m[K;[m[K
+[01m[K/home/user/catkin_ws/src/action413/src/ms.cpp:45:30:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K)[m[K' before '[01m[Khz[m[K'
+   45 |     rate = new ros::Rate[34m[K([m[Krate[01;31m[K [m[K[32m[Khz[m[K);
+      |                         [34m[K~[m[K    [01;31m[K^[m[K[32m[K~~[m[K
+      |                              [32m[K)[m[K
+[01m[K/home/user/catkin_ws/src/action413/src/ms.cpp:45:33:[m[K [01;31m[Kerror: [m[Kno matching function for call to '[01m[Kros::Rate::Rate(ros::Rate*&)[m[K'
+   45 |     rate = new ros::Rate(rate hz[01;31m[K)[m[K;
+      |                                 [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:39[m[K,
+                 from [01m[K/home/simulations/public_sim_ws/src/all/actionlib/actionlib/include/actionlib/server/simple_action_server.h:41[m[K,
+                 from [01m[K/home/user/catkin_ws/src/action413/src/ms.cpp:2[m[K:
+[01m[K/opt/ros/noetic/include/ros/rate.h:59:12:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Kros::Rate::Rate(const ros::Duration&)[m[K'
+   59 |   explicit [01;36m[KRate[m[K(const Duration&);
+      |            [01;36m[K^~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/rate.h:59:17:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from '[01m[Kros::Rate*[m[K' to '[01m[Kconst ros::Duration&[m[K'
+   59 |   explicit Rate([01;36m[Kconst Duration&[m[K);
+      |                 [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/rate.h:58:3:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Kros::Rate::Rate(double)[m[K'
+   58 |   [01;36m[KRate[m[K(double frequency);
+      |   [01;36m[K^~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/rate.h:58:15:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from '[01m[Kros::Rate*[m[K' to '[01m[Kdouble[m[K'
+   58 |   Rate([01;36m[Kdouble frequency[m[K);
+      |        [01;36m[K~~~~~~~^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/rate.h:51:20:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Kconstexpr ros::Rate::Rate(const ros::Rate&)[m[K'
+   51 | class ROSTIME_DECL [01;36m[KRate[m[K
+      |                    [01;36m[K^~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/rate.h:51:20:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from '[01m[Kros::Rate*[m[K' to '[01m[Kconst ros::Rate&[m[K'
+[01m[K/opt/ros/noetic/include/ros/rate.h:51:20:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Kconstexpr ros::Rate::Rate(ros::Rate&&)[m[K'
+[01m[K/opt/ros/noetic/include/ros/rate.h:51:20:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from '[01m[Kros::Rate*[m[K' to '[01m[Kros::Rate&&[m[K'
+[01m[K/home/user/catkin_ws/src/action413/src/ms.cpp:[m[K In member function '[01m[Kvoid Movesquare::executeCB(const int&)[m[K':
+[01m[K/home/user/catkin_ws/src/action413/src/ms.cpp:63:21:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' is not a pointer
+   63 |       sidesec = goal[01;31m[K->[m[Kgoal;
+      |                     [01;31m[K^~[m[K
+In file included from [01m[K/usr/include/boost/bind.hpp:22[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/publisher.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/simulations/public_sim_ws/src/all/actionlib/actionlib/include/actionlib/server/simple_action_server.h:41[m[K,
+                 from [01m[K/home/user/catkin_ws/src/action413/src/ms.cpp:2[m[K:
+/usr/include/boost/bind/bind.hpp: In instantiation of '[01m[Kvoid boost::_bi::list2<A1, A2>::operator()(boost::_bi::type<void>, F&, A&, int) [with F = boost::_mfi::mf1<void, Movesquare, const int&>; A = boost::_bi::rrlist1<const boost::shared_ptr<const actionlib::TestGoal_<std::allocator<void> > >&>; A1 = boost::_bi::value<Movesquare*>; A2 = boost::arg<1>][m[K':
+[01m[K/usr/include/boost/bind/bind.hpp:1306:50:[m[K   required from '[01m[Kboost::_bi::bind_t<R, F, L>::result_type boost::_bi::bind_t<R, F, L>::operator()(A1&&) [with A1 = const boost::shared_ptr<const actionlib::TestGoal_<std::allocator<void> > >&; R = void; F = boost::_mfi::mf1<void, Movesquare, const int&>; L = boost::_bi::list2<boost::_bi::value<Movesquare*>, boost::arg<1> >; boost::_bi::bind_t<R, F, L>::result_type = void][m[K'
+[01m[K/usr/include/boost/function/function_template.hpp:158:11:[m[K   required from '[01m[Kstatic void boost::detail::function::void_function_obj_invoker1<FunctionObj, R, T0>::invoke(boost::detail::function::function_buffer&, T0) [with FunctionObj = boost::_bi::bind_t<void, boost::_mfi::mf1<void, Movesquare, const int&>, boost::_bi::list2<boost::_bi::value<Movesquare*>, boost::arg<1> > >; R = void; T0 = const boost::shared_ptr<const actionlib::TestGoal_<std::allocator<void> > >&][m[K'
+[01m[K/usr/include/boost/function/function_template.hpp:931:38:[m[K   required from '[01m[Kvoid boost::function1<R, T1>::assign_to(Functor) [with Functor = boost::_bi::bind_t<void, boost::_mfi::mf1<void, Movesquare, const int&>, boost::_bi::list2<boost::_bi::value<Movesquare*>, boost::arg<1> > >; R = void; T0 = const boost::shared_ptr<const actionlib::TestGoal_<std::allocator<void> > >&][m[K'
+[01m[K/usr/include/boost/function/function_template.hpp:720:7:[m[K   required from '[01m[Kboost::function1<R, T1>::function1(Functor, typename boost::enable_if_<(! boost::is_integral<T>::value), int>::type) [with Functor = boost::_bi::bind_t<void, boost::_mfi::mf1<void, Movesquare, const int&>, boost::_bi::list2<boost::_bi::value<Movesquare*>, boost::arg<1> > >; R = void; T0 = const boost::shared_ptr<const actionlib::TestGoal_<std::allocator<void> > >&; typename boost::enable_if_<(! boost::is_integral<T>::value), int>::type = int][m[K'
+[01m[K/usr/include/boost/function/function_template.hpp:1068:16:[m[K   required from '[01m[Kboost::function<R(T0)>::function(Functor, typename boost::enable_if_<(! boost::is_integral<T>::value), int>::type) [with Functor = boost::_bi::bind_t<void, boost::_mfi::mf1<void, Movesquare, const int&>, boost::_bi::list2<boost::_bi::value<Movesquare*>, boost::arg<1> > >; R = void; T0 = const boost::shared_ptr<const actionlib::TestGoal_<std::allocator<void> > >&; typename boost::enable_if_<(! boost::is_integral<T>::value), int>::type = int][m[K'
+[01m[K/home/user/catkin_ws/src/action413/src/ms.cpp:34:26:[m[K   required from here
+[01m[K/usr/include/boost/bind/bind.hpp:319:35:[m[K [01;31m[Kerror: [m[Kno match for call to '[01m[K(boost::_mfi::mf1<void, Movesquare, const int&>) (Movesquare*&, const boost::shared_ptr<const actionlib::TestGoal_<std::allocator<void> > >&)[m[K'
+  319 |         [01;31m[Kunwrapper<F>::unwrap(f, 0)(a[base_type::a1_], a[base_type::a2_])[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/bind/mem_fn.hpp:215[m[K,
+                 from [01m[K/usr/include/boost/mem_fn.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/function/detail/prologue.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/function.hpp:30[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/forwards.h:40[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/common.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:43[m[K,
+                 from [01m[K/home/simulations/public_sim_ws/src/all/actionlib/actionlib/include/actionlib/server/simple_action_server.h:41[m[K,
+                 from [01m[K/home/user/catkin_ws/src/action413/src/ms.cpp:2[m[K:
+[01m[K/usr/include/boost/bind/mem_fn_template.hpp:163:7:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[KR boost::_mfi::mf1<R, T, A1>::operator()(T*, A1) const [with R = void; T = Movesquare; A1 = const int&][m[K'
+  163 |     R [01;36m[Koperator[m[K()(T * p, A1 a1) const
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/boost/bind/mem_fn_template.hpp:163:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from '[01m[Kconst boost::shared_ptr<const actionlib::TestGoal_<std::allocator<void> > >[m[K' to '[01m[Kconst int&[m[K'
+  163 |     R operator()(T * p, [01;36m[KA1 a1[m[K) const
+      |                         [01;36m[K~~~^~[m[K
+[01m[K/usr/include/boost/bind/mem_fn_template.hpp:168:25:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Ktemplate<class U> R boost::_mfi::mf1<R, T, A1>::operator()(U&, A1) const [with U = U; R = void; T = Movesquare; A1 = const int&][m[K'
+  168 |     template<class U> R [01;36m[Koperator[m[K()(U & u, A1 a1) const
+      |                         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/boost/bind/mem_fn_template.hpp:168:25:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/boost/bind.hpp:22[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/publisher.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/simulations/public_sim_ws/src/all/actionlib/actionlib/include/actionlib/server/simple_action_server.h:41[m[K,
+                 from [01m[K/home/user/catkin_ws/src/action413/src/ms.cpp:2[m[K:
+[01m[K/usr/include/boost/bind/bind.hpp:319:35:[m[K [01;36m[Knote: [m[K  cannot convert '[01m[K(& a)->boost::_bi::rrlist1<const boost::shared_ptr<const actionlib::TestGoal_<std::allocator<void> > >&>::operator[](boost::_bi::storage2<boost::_bi::value<Movesquare*>, boost::arg<1> >::a2_)[m[K' (type '[01m[Kconst boost::shared_ptr<const actionlib::TestGoal_<std::allocator<void> > >[m[K') to type '[01m[Kconst int&[m[K'
+  319 |         [01;36m[Kunwrapper<F>::unwrap(f, 0)(a[base_type::a1_], a[base_type::a2_])[m[K;
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/bind/mem_fn.hpp:215[m[K,
+                 from [01m[K/usr/include/boost/mem_fn.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/function/detail/prologue.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/function.hpp:30[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/forwards.h:40[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/common.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:43[m[K,
+                 from [01m[K/home/simulations/public_sim_ws/src/all/actionlib/actionlib/include/actionlib/server/simple_action_server.h:41[m[K,
+                 from [01m[K/home/user/catkin_ws/src/action413/src/ms.cpp:2[m[K:
+[01m[K/usr/include/boost/bind/mem_fn_template.hpp:176:25:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Ktemplate<class U> R boost::_mfi::mf1<R, T, A1>::operator()(const U&, A1) const [with U = U; R = void; T = Movesquare; A1 = const int&][m[K'
+  176 |     template<class U> R [01;36m[Koperator[m[K()(U const & u, A1 a1) const
+      |                         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/boost/bind/mem_fn_template.hpp:176:25:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/boost/bind.hpp:22[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/publisher.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/simulations/public_sim_ws/src/all/actionlib/actionlib/include/actionlib/server/simple_action_server.h:41[m[K,
+                 from [01m[K/home/user/catkin_ws/src/action413/src/ms.cpp:2[m[K:
+[01m[K/usr/include/boost/bind/bind.hpp:319:35:[m[K [01;36m[Knote: [m[K  cannot convert '[01m[K(& a)->boost::_bi::rrlist1<const boost::shared_ptr<const actionlib::TestGoal_<std::allocator<void> > >&>::operator[](boost::_bi::storage2<boost::_bi::value<Movesquare*>, boost::arg<1> >::a2_)[m[K' (type '[01m[Kconst boost::shared_ptr<const actionlib::TestGoal_<std::allocator<void> > >[m[K') to type '[01m[Kconst int&[m[K'
+  319 |         [01;36m[Kunwrapper<F>::unwrap(f, 0)(a[base_type::a1_], a[base_type::a2_])[m[K;
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/bind/mem_fn.hpp:215[m[K,
+                 from [01m[K/usr/include/boost/mem_fn.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/function/detail/prologue.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/function.hpp:30[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/forwards.h:40[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/common.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:43[m[K,
+                 from [01m[K/home/simulations/public_sim_ws/src/all/actionlib/actionlib/include/actionlib/server/simple_action_server.h:41[m[K,
+                 from [01m[K/home/user/catkin_ws/src/action413/src/ms.cpp:2[m[K:
+[01m[K/usr/include/boost/bind/mem_fn_template.hpp:184:7:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[KR boost::_mfi::mf1<R, T, A1>::operator()(T&, A1) const [with R = void; T = Movesquare; A1 = const int&][m[K'
+  184 |     R [01;36m[Koperator[m[K()(T & t, A1 a1) const
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/boost/bind/mem_fn_template.hpp:184:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from '[01m[KMovesquare*[m[K' to '[01m[KMovesquare&[m[K'
+  184 |     R operator()([01;36m[KT & t[m[K, A1 a1) const
+      |                  [01;36m[K~~~~^[m[K
+make[2]: *** [CMakeFiles/ms.dir/build.make:63: CMakeFiles/ms.dir/src/ms.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:866: CMakeFiles/ms.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

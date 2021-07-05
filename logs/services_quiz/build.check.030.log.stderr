@@ -1,0 +1,56 @@
+[31m[1mCMake Error[0m at /home/user/catkin_ws/build/services_quiz/cmake/services_quiz-genmsg.cmake:46 (add_custom_target):
+  add_custom_target cannot create target
+  "services_quiz_generate_messages_cpp" because another target with the same
+  name already exists.  The existing target is a custom target created in
+  source directory "/home/user/catkin_ws/src/services_quiz".  See
+  documentation for policy CMP0002 for more details.
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/noetic/share/genmsg/cmake/genmsg-extras.cmake:307 (include)
+  CMakeLists.txt:72 (generate_messages)
+
+
+[31m[1mCMake Error[0m at /home/user/catkin_ws/build/services_quiz/cmake/services_quiz-genmsg.cmake:79 (add_custom_target):
+  add_custom_target cannot create target
+  "services_quiz_generate_messages_eus" because another target with the same
+  name already exists.  The existing target is a custom target created in
+  source directory "/home/user/catkin_ws/src/services_quiz".  See
+  documentation for policy CMP0002 for more details.
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/noetic/share/genmsg/cmake/genmsg-extras.cmake:307 (include)
+  CMakeLists.txt:72 (generate_messages)
+
+
+[31m[1mCMake Error[0m at /home/user/catkin_ws/build/services_quiz/cmake/services_quiz-genmsg.cmake:112 (add_custom_target):
+  add_custom_target cannot create target
+  "services_quiz_generate_messages_lisp" because another target with the same
+  name already exists.  The existing target is a custom target created in
+  source directory "/home/user/catkin_ws/src/services_quiz".  See
+  documentation for policy CMP0002 for more details.
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/noetic/share/genmsg/cmake/genmsg-extras.cmake:307 (include)
+  CMakeLists.txt:72 (generate_messages)
+
+
+[31m[1mCMake Error[0m at /home/user/catkin_ws/build/services_quiz/cmake/services_quiz-genmsg.cmake:145 (add_custom_target):
+  add_custom_target cannot create target
+  "services_quiz_generate_messages_nodejs" because another target with the
+  same name already exists.  The existing target is a custom target created
+  in source directory "/home/user/catkin_ws/src/services_quiz".  See
+  documentation for policy CMP0002 for more details.
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/noetic/share/genmsg/cmake/genmsg-extras.cmake:307 (include)
+  CMakeLists.txt:72 (generate_messages)
+
+
+[31m[1mCMake Error[0m at /home/user/catkin_ws/build/services_quiz/cmake/services_quiz-genmsg.cmake:178 (add_custom_target):
+  add_custom_target cannot create target "services_quiz_generate_messages_py"
+  because another target with the same name already exists.  The existing
+  target is a custom target created in source directory
+  "/home/user/catkin_ws/src/services_quiz".  See documentation for policy
+  CMP0002 for more details.
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/noetic/share/genmsg/cmake/genmsg-extras.cmake:307 (include)
+  CMakeLists.txt:72 (generate_messages)
+
+
+make: *** [Makefile:786: cmake_check_build_system] Error 1

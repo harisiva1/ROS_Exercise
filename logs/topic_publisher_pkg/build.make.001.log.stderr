@@ -1,0 +1,8 @@
+[01m[K/home/user/catkin_ws/src/topic_publisher_pkg/src/simple_topic_publisher.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/user/catkin_ws/src/topic_publisher_pkg/src/simple_topic_publisher.cpp:23:21:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K;[m[K' before '[01m[Kros[m[K'
+   23 |     pub.publish(mov)[01;31m[K [m[K[32m[Kros[m[K::spinOnce();
+      |                     [01;31m[K^[m[K[32m[K~~~[m[K
+      |                     [32m[K;[m[K
+make[2]: *** [CMakeFiles/simple_topic_publisher.dir/build.make:63: CMakeFiles/simple_topic_publisher.dir/src/simple_topic_publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/simple_topic_publisher.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

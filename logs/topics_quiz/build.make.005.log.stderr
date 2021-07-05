@@ -1,0 +1,17 @@
+[01m[K/home/user/catkin_ws/src/topics_quiz/src/topics_quiz_node.cpp:8:59:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before '[01m[K&[m[K' token
+    8 | void odomCallback(double sensor_msgs::LaserScan::sharedPtr[01;31m[K&[m[K var[]) {
+      |                                                           [01;31m[K^[m[K
+[01m[K/home/user/catkin_ws/src/topics_quiz/src/topics_quiz_node.cpp:8:59:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K)[m[K' before '[01m[K&[m[K' token
+    8 | void odomCallback[34m[K([m[Kdouble sensor_msgs::LaserScan::sharedPtr[01;31m[K&[m[K var[]) {
+      |                  [34m[K~[m[K                                        [01;31m[K^[m[K
+      |                                                           [32m[K)[m[K
+[01m[K/home/user/catkin_ws/src/topics_quiz/src/topics_quiz_node.cpp:8:61:[m[K [01;31m[Kerror: [m[Kexpected initializer before '[01m[Kvar[m[K'
+    8 | void odomCallback(double sensor_msgs::LaserScan::sharedPtr& [01;31m[Kvar[m[K[]) {
+      |                                                             [01;31m[K^~~[m[K
+[01m[K/home/user/catkin_ws/src/topics_quiz/src/topics_quiz_node.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/user/catkin_ws/src/topics_quiz/src/topics_quiz_node.cpp:42:65:[m[K [01;31m[Kerror: [m[K'[01m[KodomCallback[m[K' was not declared in this scope
+   42 |   ros::Subscriber sub = nh.subscribe("kobuki/laser/scan", 1000, [01;31m[KodomCallback[m[K);
+      |                                                                 [01;31m[K^~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/top_quiz.dir/build.make:63: CMakeFiles/top_quiz.dir/src/topics_quiz_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/top_quiz.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

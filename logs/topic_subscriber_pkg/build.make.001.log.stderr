@@ -1,0 +1,64 @@
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/user/catkin_ws/src/topic_subscriber_pkg/src/simple_topic_subscriber.cpp:1[m[K:
+[01m[K/home/user/catkin_ws/src/topic_subscriber_pkg/src/simple_topic_subscriber.cpp:[m[K In function '[01m[Kvoid counterCallback(const ConstPtr&)[m[K':
+[01m[K/home/user/catkin_ws/src/topic_subscriber_pkg/src/simple_topic_subscriber.cpp:13:12:[m[K [01;35m[Kwarning: [m[Kformat '[01m[K%d[m[K' expects argument of type '[01m[Kint[m[K', but argument 8 has type '[01m[Kgeometry_msgs::Vector3_<std::allocator<void> >::_x_type[m[K' {aka '[01m[Kdouble[m[K'} [[01;35m[K-Wformat=[m[K]
+   13 |   ROS_INFO([01;35m[K"%d"[m[K, [32m[Ktwist->linear.x[m[K);
+      |            [01;35m[K^~~~[m[K  [32m[K~~~~~~~~~~~~~~~[m[K
+      |                                [32m[K|[m[K
+      |                                [32m[Kgeometry_msgs::Vector3_<std::allocator<void> >::_x_type {aka double}[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro '[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K'
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K'
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KROS_LOG_COND[m[K'
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KROS_LOG[m[K'
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/user/catkin_ws/src/topic_subscriber_pkg/src/simple_topic_subscriber.cpp:13:3:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KROS_INFO[m[K'
+   13 |   [01;36m[KROS_INFO[m[K("%d", twist->linear.x);
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/home/user/catkin_ws/src/topic_subscriber_pkg/src/simple_topic_subscriber.cpp:13:14:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   13 |   ROS_INFO("[01;36m[K%d[m[K", twist->linear.x);
+      |             [01;36m[K~^[m[K
+      |              [01;36m[K|[m[K
+      |              [01;36m[Kint[m[K
+      |             [32m[K%f[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/user/catkin_ws/src/topic_subscriber_pkg/src/simple_topic_subscriber.cpp:1[m[K:
+[01m[K/home/user/catkin_ws/src/topic_subscriber_pkg/src/simple_topic_subscriber.cpp:14:12:[m[K [01;35m[Kwarning: [m[Kformat '[01m[K%d[m[K' expects argument of type '[01m[Kint[m[K', but argument 8 has type '[01m[Kgeometry_msgs::Vector3_<std::allocator<void> >::_z_type[m[K' {aka '[01m[Kdouble[m[K'} [[01;35m[K-Wformat=[m[K]
+   14 |   ROS_INFO([01;35m[K"%d"[m[K, [32m[Ktwist->angular.z[m[K);
+      |            [01;35m[K^~~~[m[K  [32m[K~~~~~~~~~~~~~~~~[m[K
+      |                                 [32m[K|[m[K
+      |                                 [32m[Kgeometry_msgs::Vector3_<std::allocator<void> >::_z_type {aka double}[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro '[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K'
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K'
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KROS_LOG_COND[m[K'
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KROS_LOG[m[K'
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/user/catkin_ws/src/topic_subscriber_pkg/src/simple_topic_subscriber.cpp:14:3:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KROS_INFO[m[K'
+   14 |   [01;36m[KROS_INFO[m[K("%d", twist->angular.z);
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/home/user/catkin_ws/src/topic_subscriber_pkg/src/simple_topic_subscriber.cpp:14:14:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   14 |   ROS_INFO("[01;36m[K%d[m[K", twist->angular.z);
+      |             [01;36m[K~^[m[K
+      |              [01;36m[K|[m[K
+      |              [01;36m[Kint[m[K
+      |             [32m[K%f[m[K
+[01m[K/home/user/catkin_ws/src/topic_subscriber_pkg/src/simple_topic_subscriber.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/user/catkin_ws/src/topic_subscriber_pkg/src/simple_topic_subscriber.cpp:23:55:[m[K [01;31m[Kerror: [m[K'[01m[KodomCallback[m[K' was not declared in this scope
+   23 |     ros::Subscriber sub = nh.subscribe("/odom", 1000, [01;31m[KodomCallback[m[K);
+      |                                                       [01;31m[K^~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/simple_topic_subscriber.dir/build.make:63: CMakeFiles/simple_topic_subscriber.dir/src/simple_topic_subscriber.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/simple_topic_subscriber.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

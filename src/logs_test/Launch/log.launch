@@ -1,0 +1,5 @@
+<launch>
+    <!-- My Package launch file -->
+    <node pkg="logs_test" type="logger_example" name="log_demo"  output="screen">
+    </node>
+</launch>

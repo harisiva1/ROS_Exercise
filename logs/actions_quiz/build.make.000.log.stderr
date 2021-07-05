@@ -1,0 +1,15 @@
+[01m[K/home/user/catkin_ws/src/actions_quiz/src/Newactionserver.cpp:[m[K In member function '[01m[Kvoid TakeoffLand::executeCB(const CustomActionMsgGoalConstPtr&)[m[K':
+[01m[K/home/user/catkin_ws/src/actions_quiz/src/Newactionserver.cpp:58:7:[m[K [01;31m[Kerror: [m[Kbreak statement not within loop or switch
+   58 |       [01;31m[Kbreak[m[K;
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/user/catkin_ws/src/actions_quiz/src/Newactionserver.cpp:[m[K In member function '[01m[Kvoid TakeoffLand::takeoff_drone()[m[K':
+[01m[K/home/user/catkin_ws/src/actions_quiz/src/Newactionserver.cpp:76:28:[m[K [01;31m[Kerror: [m[K'[01m[Kgoal[m[K' was not declared in this scope
+   76 |       feedback_.feedback = [01;31m[Kgoal[m[K->goal;
+      |                            [01;31m[K^~~~[m[K
+[01m[K/home/user/catkin_ws/src/actions_quiz/src/Newactionserver.cpp:[m[K In member function '[01m[Kvoid TakeoffLand::land_drone()[m[K':
+[01m[K/home/user/catkin_ws/src/actions_quiz/src/Newactionserver.cpp:89:28:[m[K [01;31m[Kerror: [m[K'[01m[Kgoal[m[K' was not declared in this scope
+   89 |       feedback_.feedback = [01;31m[Kgoal[m[K->goal;
+      |                            [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/Newactionserver.dir/build.make:63: CMakeFiles/Newactionserver.dir/src/Newactionserver.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:208: CMakeFiles/Newactionserver.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

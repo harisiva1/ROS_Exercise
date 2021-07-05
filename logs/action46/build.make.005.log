@@ -1,0 +1,99 @@
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target _catkin_empty_exported_target
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target ex46[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ex46.dir/src/ex46.cpp.o[0m
+[01m[K/home/user/catkin_ws/src/action46/src/ex46.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/user/catkin_ws/src/action46/src/ex46.cpp:35:30:[m[K [01;31m[Kerror: [m[K'[01m[KEmpty[m[K' is not a member of '[01m[Kstd_msgs[m[K'
+   35 |       nh.advertise<std_msgs::[01;31m[KEmpty[m[K>("/drone/takeoff", 1000);
+      |                              [01;31m[K^~~~~[m[K
+[01m[K/home/user/catkin_ws/src/action46/src/ex46.cpp:35:30:[m[K [01;31m[Kerror: [m[K'[01m[KEmpty[m[K' is not a member of '[01m[Kstd_msgs[m[K'
+[01m[K/home/user/catkin_ws/src/action46/src/ex46.cpp:35:59:[m[K [01;31m[Kerror: [m[Kno matching function for call to '[01m[Kros::NodeHandle::advertise<<expression error> >(const char [15], int)[m[K'
+   35 |       nh.advertise<std_msgs::Empty>("/drone/takeoff", 1000[01;31m[K)[m[K;
+      |                                                           [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/simulations/public_sim_ws/src/all/actionlib/actionlib/include/actionlib/client/simple_action_client.h:45[m[K,
+                 from [01m[K/home/user/catkin_ws/src/action46/src/ex46.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Ktemplate<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, bool)[m[K'
+  249 |     Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size, bool latch = false)
+      |               [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/user/catkin_ws/src/action46/src/ex46.cpp:35:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   35 |       nh.advertise<std_msgs::Empty>("/drone/takeoff", 1000[01;31m[K)[m[K;
+      |                                                           [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/simulations/public_sim_ws/src/all/actionlib/actionlib/include/actionlib/client/simple_action_client.h:45[m[K,
+                 from [01m[K/home/user/catkin_ws/src/action46/src/ex46.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Ktemplate<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, const SubscriberStatusCallback&, const SubscriberStatusCallback&, const VoidConstPtr&, bool)[m[K'
+  315 |   Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size,
+      |             [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/user/catkin_ws/src/action46/src/ex46.cpp:35:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   35 |       nh.advertise<std_msgs::Empty>("/drone/takeoff", 1000[01;31m[K)[m[K;
+      |                                                           [01;31m[K^[m[K
+[01m[K/home/user/catkin_ws/src/action46/src/ex46.cpp:37:13:[m[K [01;31m[Kerror: [m[K'[01m[KEmpty[m[K' is not a member of '[01m[Kstd_msgs[m[K'
+   37 |   std_msgs::[01;31m[KEmpty[m[K takeoff_msg;
+      |             [01;31m[K^~~~~[m[K
+[01m[K/home/user/catkin_ws/src/action46/src/ex46.cpp:39:48:[m[K [01;31m[Kerror: [m[K'[01m[KEmpty[m[K' is not a member of '[01m[Kstd_msgs[m[K'
+   39 |   ros::Publisher land = nh.advertise<std_msgs::[01;31m[KEmpty[m[K>("/drone/land", 1000);
+      |                                                [01;31m[K^~~~~[m[K
+[01m[K/home/user/catkin_ws/src/action46/src/ex46.cpp:39:48:[m[K [01;31m[Kerror: [m[K'[01m[KEmpty[m[K' is not a member of '[01m[Kstd_msgs[m[K'
+[01m[K/home/user/catkin_ws/src/action46/src/ex46.cpp:39:74:[m[K [01;31m[Kerror: [m[Kno matching function for call to '[01m[Kros::NodeHandle::advertise<<expression error> >(const char [12], int)[m[K'
+   39 |   ros::Publisher land = nh.advertise<std_msgs::Empty>("/drone/land", 1000[01;31m[K)[m[K;
+      |                                                                          [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/simulations/public_sim_ws/src/all/actionlib/actionlib/include/actionlib/client/simple_action_client.h:45[m[K,
+                 from [01m[K/home/user/catkin_ws/src/action46/src/ex46.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Ktemplate<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, bool)[m[K'
+  249 |     Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size, bool latch = false)
+      |               [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/user/catkin_ws/src/action46/src/ex46.cpp:39:74:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   39 |   ros::Publisher land = nh.advertise<std_msgs::Empty>("/drone/land", 1000[01;31m[K)[m[K;
+      |                                                                          [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/simulations/public_sim_ws/src/all/actionlib/actionlib/include/actionlib/client/simple_action_client.h:45[m[K,
+                 from [01m[K/home/user/catkin_ws/src/action46/src/ex46.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Ktemplate<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, const SubscriberStatusCallback&, const SubscriberStatusCallback&, const VoidConstPtr&, bool)[m[K'
+  315 |   Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size,
+      |             [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/user/catkin_ws/src/action46/src/ex46.cpp:39:74:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   39 |   ros::Publisher land = nh.advertise<std_msgs::Empty>("/drone/land", 1000[01;31m[K)[m[K;
+      |                                                                          [01;31m[K^[m[K
+[01m[K/home/user/catkin_ws/src/action46/src/ex46.cpp:40:13:[m[K [01;31m[Kerror: [m[K'[01m[KEmpty[m[K' is not a member of '[01m[Kstd_msgs[m[K'
+   40 |   std_msgs::[01;31m[KEmpty[m[K land_msg;
+      |             [01;31m[K^~~~~[m[K
+[01m[K/home/user/catkin_ws/src/action46/src/ex46.cpp:55:19:[m[K [01;31m[Kerror: [m[K'[01m[Ktakeoff_msg[m[K' was not declared in this scope; did you mean '[01m[Ktakeoff[m[K'?
+   55 |   takeoff.publish([01;31m[Ktakeoff_msg[m[K);
+      |                   [01;31m[K^~~~~~~~~~~[m[K
+      |                   [32m[Ktakeoff[m[K
+[01m[K/home/user/catkin_ws/src/action46/src/ex46.cpp:74:18:[m[K [01;31m[Kerror: [m[K'[01m[Kland_msg[m[K' was not declared in this scope
+   74 |     land.publish([01;31m[Kland_msg[m[K);
+      |                  [01;31m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/ex46.dir/build.make:63: CMakeFiles/ex46.dir/src/ex46.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:191: CMakeFiles/ex46.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,8 @@
+<launch>
+    <!-- service Package launch file -->
+    <node pkg="my_custom_srv_msg_pkg" type="service_server" name="service_server"  output="screen">
+    <?ignore
+    <node pkg="my_custom_srv_msg_pkg" type="custom_service_server" name="custom_service_server"  output="screen">
+    ?>
+    </node>
+</launch>

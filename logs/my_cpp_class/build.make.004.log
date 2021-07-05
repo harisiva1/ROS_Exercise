@@ -1,0 +1,24 @@
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target services_quiz_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target services_quiz_generate_messages_cpp
+[  0%] Built target services_quiz_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target services_quiz_generate_messages_lisp
+[  0%] Built target services_quiz_generate_messages_py
+[35m[1mScanning dependencies of target bb8_move_circle_class[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/bb8_move_circle_class.dir/src/bb8_move_circle_class.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/user/catkin_ws/devel/.private/my_cpp_class/lib/my_cpp_class/bb8_move_circle_class[0m
+[100%] Built target bb8_move_circle_class

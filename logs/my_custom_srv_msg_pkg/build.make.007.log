@@ -1,0 +1,17 @@
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+The dependencies of the message/service 'my_custom_srv_msg_pkg/MyCustomServiceMessage' have changed. Please rerun cmake.
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_cpp
+make[2]: *** [CMakeFiles/_my_custom_srv_msg_pkg_generate_messages_check_deps_MyCustomServiceMessage.dir/build.make:57: CMakeFiles/_my_custom_srv_msg_pkg_generate_messages_check_deps_MyCustomServiceMessage] Error 1
+make[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/_my_custom_srv_msg_pkg_generate_messages_check_deps_MyCustomServiceMessage.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+make: *** [Makefile:141: all] Error 2

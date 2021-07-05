@@ -1,0 +1,8 @@
+prefix=/home/user/catkin_ws/install
+
+Name: action413
+Description: Description of action413
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

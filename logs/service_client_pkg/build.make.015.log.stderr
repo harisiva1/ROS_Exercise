@@ -1,0 +1,40 @@
+[01m[K/home/user/catkin_ws/src/service_client_pkg/src/simple_service_client_exe.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/user/catkin_ws/src/service_client_pkg/src/simple_service_client_exe.cpp:14:3:[m[K [01;31m[Kerror: [m[K'[01m[Ktrajectory[m[K' was not declared in this scope
+   14 |   [01;31m[Ktrajectory[m[K.request.file =
+      |   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/user/catkin_ws/src/service_client_pkg/src/simple_service_client_exe.cpp:18:24:[m[K [01;31m[Kerror: [m[K'[01m[Kiri_wam_reproduce_trajectory_srv[m[K' was not declared in this scope
+   18 |       nh.serviceClient<[01;31m[Kiri_wam_reproduce_trajectory_srv[m[K::ExecTraj>(
+      |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/catkin_ws/src/service_client_pkg/src/simple_service_client_exe.cpp:18:10:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   18 |       nh.[01;31m[KserviceClient<iri_wam_reproduce_trajectory_srv::ExecTraj>[m[K(
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/catkin_ws/src/service_client_pkg/src/simple_service_client_exe.cpp:19:46:[m[K [01;31m[Kerror: [m[Kno matching function for call to '[01m[Kros::NodeHandle::serviceClient<<expression error> >(const char [34])[m[K'
+   19 |           "/iri_wam_reproduce_trajectory_srv"[01;31m[K)[m[K;
+      |                                              [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/user/catkin_ws/src/service_client_pkg/src/simple_service_client_exe.cpp:3[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:1240:17:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Ktemplate<class MReq, class MRes> ros::ServiceClient ros::NodeHandle::serviceClient(const string&, bool, const M_string&)[m[K'
+ 1240 |   ServiceClient [01;36m[KserviceClient[m[K(const std::string& service_name, bool persistent = false,
+      |                 [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:1240:17:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/user/catkin_ws/src/service_client_pkg/src/simple_service_client_exe.cpp:19:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   19 |           "/iri_wam_reproduce_trajectory_srv"[01;31m[K)[m[K;
+      |                                              [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/user/catkin_ws/src/service_client_pkg/src/simple_service_client_exe.cpp:3[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:1260:17:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Ktemplate<class Service> ros::ServiceClient ros::NodeHandle::serviceClient(const string&, bool, const M_string&)[m[K'
+ 1260 |   ServiceClient [01;36m[KserviceClient[m[K(const std::string& service_name, bool persistent = false,
+      |                 [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:1260:17:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/user/catkin_ws/src/service_client_pkg/src/simple_service_client_exe.cpp:19:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   19 |           "/iri_wam_reproduce_trajectory_srv"[01;31m[K)[m[K;
+      |                                              [01;31m[K^[m[K
+[01m[K/home/user/catkin_ws/src/service_client_pkg/src/simple_service_client_exe.cpp:20:3:[m[K [01;31m[Kerror: [m[K'[01m[Kiri_wam_reproduce_trajectory_srv[m[K' is not a class, namespace, or enumeration
+   20 |   [01;31m[Kiri_wam_reproduce_trajectory_srv[m[K::ExecTraj
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/catkin_ws/src/service_client_pkg/src/simple_service_client_exe.cpp:22:3:[m[K [01;31m[Kerror: [m[K'[01m[Ksrv[m[K' was not declared in this scope
+   22 |   [01;31m[Ksrv[m[K.request.traj_name =
+      |   [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/simple_service_client_exe.dir/build.make:63: CMakeFiles/simple_service_client_exe.dir/src/simple_service_client_exe.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:262: CMakeFiles/simple_service_client_exe.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

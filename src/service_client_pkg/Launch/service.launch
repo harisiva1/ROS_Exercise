@@ -1,0 +1,6 @@
+<launch>
+    <!-- service Package launch file -->
+    <include file="$(find iri_wam_reproduce_trajectory)/launch/start_service.launch"/>
+    <node pkg="service_client_pkg" type="simple_service_client_exe" name="service_client_exe"  output="screen">
+    </node>
+</launch>

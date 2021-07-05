@@ -1,0 +1,5 @@
+<launch>
+    <!-- My Package launch file -->
+    <node pkg="action46" type="ex46" name="drone_action_client"  output="screen">
+    </node>
+</launch>

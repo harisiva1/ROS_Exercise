@@ -1,0 +1,16 @@
+[01m[K/home/user/catkin_ws/src/action46/src/ex46.cpp:7:1:[m[K [01;31m[Kerror: [m[K'[01m[Kgeometry_msgs[m[K' does not name a type
+    7 | [01;31m[Kgeometry_msgs[m[K::Twist mov;
+      | [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/user/catkin_ws/src/action46/src/ex46.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/user/catkin_ws/src/action46/src/ex46.cpp:45:5:[m[K [01;31m[Kerror: [m[K'[01m[Kmov[m[K' was not declared in this scope
+   45 |     [01;31m[Kmov[m[K.linear.x = 0.5;
+      |     [01;31m[K^~~[m[K
+[01m[K/home/user/catkin_ws/src/action46/src/ex46.cpp:53:57:[m[K [01;31m[Kerror: [m[K'[01m[KDONE[m[K' is not a member of '[01m[Kactionlib::SimpleClientGoalState[m[K'
+   53 |   if (state_result == actionlib::SimpleClientGoalState::[01;31m[KDONE[m[K) {
+      |                                                         [01;31m[K^~~~[m[K
+[01m[K/home/user/catkin_ws/src/action46/src/ex46.cpp:54:5:[m[K [01;31m[Kerror: [m[K'[01m[Kmov[m[K' was not declared in this scope
+   54 |     [01;31m[Kmov[m[K.linear.x = 0.0;
+      |     [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/ex46.dir/build.make:63: CMakeFiles/ex46.dir/src/ex46.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:191: CMakeFiles/ex46.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

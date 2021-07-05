@@ -1,0 +1,44 @@
+[35m[1mScanning dependencies of target services_quiz_generate_messages_eus[0m
+[35m[1mScanning dependencies of target services_quiz_generate_messages_cpp[0m
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target services_quiz_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target services_quiz_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target services_quiz_generate_messages_cpp
+[35m[1mScanning dependencies of target services_quiz_generate_messages_py[0m
+[35m[1mScanning dependencies of target services_quiz_generate_messages_lisp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target services_quiz_generate_messages_nodejs
+[  0%] Built target services_quiz_generate_messages_py
+[  0%] Built target services_quiz_generate_messages_lisp
+[35m[1mScanning dependencies of target bb8_move_circle_class[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/bb8_move_circle_class.dir/src/bb8_move_circle_class.cpp.o[0m
+[01m[K/home/user/catkin_ws/src/my_cpp_class/src/bb8_move_circle_class.cpp:82:3:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K}[m[K' at end of input
+   82 |   [01;31m[K}[m[K
+      |   [01;31m[K^[m[K
+[01m[K/home/user/catkin_ws/src/my_cpp_class/src/bb8_move_circle_class.cpp:7:15:[m[K [01;36m[Knote: [m[Kto match this '[01m[K{[m[K'
+    7 | class MoveBB8 [01;36m[K{[m[K
+      |               [01;36m[K^[m[K
+[01m[K/home/user/catkin_ws/src/my_cpp_class/src/bb8_move_circle_class.cpp:[m[K In constructor '[01m[KMoveBB8::MoveBB8()[m[K':
+[01m[K/home/user/catkin_ws/src/my_cpp_class/src/bb8_move_circle_class.cpp:29:5:[m[K [01;31m[Kerror: [m[K'[01m[Kmy_custom_service[m[K' was not declared in this scope
+   29 |     [01;31m[Kmy_custom_service[m[K = nh_.advertiseService(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/catkin_ws/src/my_cpp_class/src/bb8_move_circle_class.cpp:[m[K At global scope:
+[01m[K/home/user/catkin_ws/src/my_cpp_class/src/bb8_move_circle_class.cpp:82:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+   82 |   [01;31m[K}[m[K
+      |   [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/bb8_move_circle_class.dir/build.make:63: CMakeFiles/bb8_move_circle_class.dir/src/bb8_move_circle_class.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:476: CMakeFiles/bb8_move_circle_class.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

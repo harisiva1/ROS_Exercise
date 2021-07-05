@@ -1,0 +1,4 @@
+The dependencies of the message/service 'my_custom_srv_msg_pkg/MyCustomServiceMessage' have changed. Please rerun cmake.
+make[2]: *** [CMakeFiles/_my_custom_srv_msg_pkg_generate_messages_check_deps_MyCustomServiceMessage.dir/build.make:57: CMakeFiles/_my_custom_srv_msg_pkg_generate_messages_check_deps_MyCustomServiceMessage] Error 1
+make[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/_my_custom_srv_msg_pkg_generate_messages_check_deps_MyCustomServiceMessage.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

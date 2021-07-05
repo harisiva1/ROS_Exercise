@@ -1,0 +1,35 @@
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target bb8_move_custom_service_client[0m
+[  0%] Built target _services_quiz_generate_messages_check_deps_BB8CustomServiceMessage
+[ 18%] Built target bb8_move_custom_service_server
+[ 27%] [32mBuilding CXX object CMakeFiles/bb8_move_custom_service_client.dir/src/bb8_move_custom_service_client.cpp.o[0m
+[ 45%] Built target services_quiz_generate_messages_eus
+[ 90%] Built target services_quiz_generate_messages_py
+[ 90%] Built target services_quiz_generate_messages_nodejs
+[ 90%] Built target services_quiz_generate_messages_cpp
+[ 90%] Built target services_quiz_generate_messages_lisp
+[ 90%] Built target services_quiz_generate_messages
+[01m[K/home/user/catkin_ws/src/services_quiz/src/bb8_move_custom_service_client.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/user/catkin_ws/src/services_quiz/src/bb8_move_custom_service_client.cpp:18:12:[m[K [01;31m[Kerror: [m[Krequest for member '[01m[Ksleep[m[K' in '[01m[KloopRate[m[K', which is of non-class type '[01m[Kros::Rate()[m[K'
+   18 |   loopRate.[01;31m[Ksleep[m[K(50);
+      |            [01;31m[K^~~~~[m[K
+[01m[K/home/user/catkin_ws/src/services_quiz/src/bb8_move_custom_service_client.cpp:23:12:[m[K [01;31m[Kerror: [m[Krequest for member '[01m[Ksleep[m[K' in '[01m[KloopRate[m[K', which is of non-class type '[01m[Kros::Rate()[m[K'
+   23 |   loopRate.[01;31m[Ksleep[m[K(80);
+      |            [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/bb8_move_custom_service_client.dir/build.make:63: CMakeFiles/bb8_move_custom_service_client.dir/src/bb8_move_custom_service_client.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:184: CMakeFiles/bb8_move_custom_service_client.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,5 @@
+<launch>
+    <!-- publisher package launch file -->
+    <node pkg="topic_subscriber_pkg" type="simple_topic_subscriber" name="odom_subscriber"  output="screen">
+    </node>
+</launch>
