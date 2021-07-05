@@ -19,7 +19,7 @@ created a [service server](src/services_quiz/src/bb8_move_custom_service_server.
 
 ## Actions - client and server
 
-Created a [action sserver](src/action413/src/ms.cpp) so whenever it is called drone will take off and move in a square and then land.
+Created a [action server](src/action413/src/ms.cpp) so whenever it is called drone will take off and move in a square and then land.
 
 ![drone](https://user-images.githubusercontent.com/68550704/124514756-12092700-ddde-11eb-85f0-361b8fc43b62.gif)
 
