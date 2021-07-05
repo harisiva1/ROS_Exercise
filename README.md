@@ -1,6 +1,6 @@
 # ROS_Exercise
 
-Exercise are carried out in ROS Noetic.This is just to demonstrate that i have practical knowledge in creating nodes,services-clients,services-server,actions-cleints, actions-server,custom messages,custom actions etc., in c++.
+Exercise are carried out in ROS Noetic.This is just to demonstrate that i have practical knowledge in creating nodes,services-clients,services-server,actions-cleints, actions-server,custom messages,custom actions etc., in c++.Although the below exercise seems simple it is just to demonstrate that i can do these task using ROS concepts in Noetic.
 
 ## Publisher and Subscriber
 
