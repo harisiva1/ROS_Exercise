@@ -13,7 +13,7 @@ code can be [found](src/topics_quiz/src/topics_quiz_node.cpp) here
 
 ## services - Client and server
 
-created a [service server](src/services_quiz/src/bb8_move_custom_service_server.cpp) which would move the robot in square path and a [client](src/services_quiz/src/bb8_move_custom_service_client.cpp) which is using the server.i have also created customservice message for the request and response.
+created a [service server](src/services_quiz/src/bb8_move_custom_service_server.cpp) which would move the robot in 2 small square path twice and outer big square path once and a [client](src/services_quiz/src/bb8_move_custom_service_client.cpp) which is using the server.i have also created customservice message for the request and response.
 
 ![basic_unit3_variable_square](https://user-images.githubusercontent.com/68550704/124514417-416b6400-dddd-11eb-88ea-f78295002430.png)
 
