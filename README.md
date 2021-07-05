@@ -23,4 +23,9 @@ Created a [action server](src/action413/src/ms.cpp) so whenever it is called dro
 
 ![drone](https://user-images.githubusercontent.com/68550704/124514756-12092700-ddde-11eb-85f0-361b8fc43b62.gif)
 
+## Maze
+
+Here i have implemented all the above concepts to navigate the robot out of maze.
+
+<img width="738" alt="maze" src="https://user-images.githubusercontent.com/68550704/124515636-32d27c00-dde0-11eb-8ce6-19b485285411.png">
 
