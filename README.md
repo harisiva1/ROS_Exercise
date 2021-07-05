@@ -1,6 +1,6 @@
 # ROS_Exercise
 
-Exercise are carried out in ROS Noetic.
+Exercise are carried out in ROS Noetic.This is just to demonstrate that i have practical knowledge in creating nodes,services-clients,services-server,actions-cleints, actions-server,custom messages,custom actions etc., 
 
 ## Publisher and Subscriber
 
