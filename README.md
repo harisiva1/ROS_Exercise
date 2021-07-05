@@ -1,6 +1,6 @@
 # ROS_Exercise
 
-Exercise are carried out in ROS Noetic
+Exercise are carried out in ROS Noetic.
 
 ## Publisher and Subscriber
 
